@@ -1,4 +1,4 @@
-# March CRUD Application
+# March CRUD
 
 A simple CRUD application built with Next.js and TypeScript using the JSONPlaceholder API for demonstration purposes.
 
@@ -13,10 +13,11 @@ A simple CRUD application built with Next.js and TypeScript using the JSONPlaceh
 
 ### Prerequisites
 
-Make sure you have [Node.js](https://nodejs.org/) installed on your machine. You can check this by running:
+Make sure you have [Node.js](https://nodejs.org/) and [pnpm](https://pnpm.io/) installed on your machine. You can check this by running:
 
 ```bash
 node -v
+pnpm -v
 ```
 
 ### Installation
