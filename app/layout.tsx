@@ -19,7 +19,9 @@ export default function RootLayout({
         <div className="w-full max-w-[60rem] mx-auto p-4 flex flex-col gap-10 text-sm">
           <header className="flex justify-between">
             <Link href="/">crud app</Link>
-            <Link href="/create">create</Link>
+            <Link href="/create" className="hover:opacity-70">
+              create
+            </Link>
           </header>
           {children}
         </div>
