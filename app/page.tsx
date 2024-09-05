@@ -20,7 +20,7 @@ export default async function Home() {
   }
 
   return (
-    <main className="w-full flex flex-col gap-4 max-h-[400px] overflow-y-auto px-2">
+    <main className="w-full flex flex-col gap-4 max-h-[600px] overflow-y-auto px-2">
       <PostsList posts={posts} />
     </main>
   );

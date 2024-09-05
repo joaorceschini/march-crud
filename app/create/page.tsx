@@ -35,7 +35,7 @@ export default function Create() {
   }
 
   return (
-    <main className="w-full flex flex-col gap-4 max-h-[400px] overflow-y-auto px-2">
+    <main className="w-full flex flex-col gap-4 px-2">
       <h1>create a new post</h1>
       <form onSubmit={handleSubmit} className="flex flex-col gap-4">
         <input

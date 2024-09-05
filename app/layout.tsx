@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${jetBrainsMono.className} antialiased`}>
-        <div className="w-full max-w-[60rem] mx-auto p-4 flex flex-col gap-10 text-sm">
+        <div className="w-full max-w-[60rem] mx-auto p-4 flex flex-col gap-14 text-sm">
           <header className="flex justify-between">
             <Link href="/">crud app</Link>
             <Link href="/create" className="hover:opacity-70">

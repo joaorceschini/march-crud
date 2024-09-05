@@ -37,7 +37,7 @@ export default function PostsList({ posts: initialPosts }: PostsListProps) {
       {posts.map((post) => (
         <div
           key={post.id}
-          className="w-full pb-2 border-b border-neutral-800 flex gap-8 items-center justify-between"
+          className="w-full pb-2 border-b border-neutral-800 flex flex-col gap-8 items-start justify-between md:flex-row md:items-center"
         >
           <div>
             <h2 className="text-base">{post.title}</h2>

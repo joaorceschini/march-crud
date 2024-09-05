@@ -24,7 +24,7 @@ export default async function Update({
   }
 
   return (
-    <main className="w-full flex flex-col gap-4 max-h-[400px] overflow-y-auto px-2">
+    <main className="w-full flex flex-col gap-4 px-2">
       <h1>update post</h1>
       {post ? <UpdateForm post={post} /> : <p>Loading...</p>}{" "}
     </main>
